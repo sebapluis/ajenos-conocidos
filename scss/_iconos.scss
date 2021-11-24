@@ -1,0 +1,14 @@
+.contenedorIconos{
+    padding-top: .5rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    i{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+    a:visited{
+        color: $colorBlanco;
+    }
+}

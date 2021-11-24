@@ -1,0 +1,32 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    color: $colorUno;
+}
+h1{
+    color: $colorBordo;
+    text-transform: uppercase;
+    margin: 2rem;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+}
+h2{
+    color: $colorUno;
+    text-transform: uppercase;
+    margin: 1rem;
+    font-family: $fuentePrincipal;
+    /*font-weight: bold;*/
+}
+p{
+    color: $colorUno;
+    text-align: center;
+    font-family: $fuenteSecundaria;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+
+

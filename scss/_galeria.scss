@@ -1,0 +1,59 @@
+.gallery{
+    display: grid;
+    width: 93%;
+    margin: 3rem auto;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0.6rem;
+    grid-row-gap: 0.8rem;
+    grid-template-areas: "f6 f6 f6 f4 f4 f4 f1 f1 f1"
+                         "f6 f6 f6 f4 f4 f4 f1 f1 f1"
+                         "f6 f6 f6 f4 f4 f4 f2 f2 f2"
+                         "f6 f6 f6 f4 f4 f4 f2 f2 f2"
+                         "f5 f5 f5 f8 f8 f8 f7 f7 f7"
+                         "f5 f5 f5 f8 f8 f8 f7 f7 f7"
+                         "f5 f5 f5 f3 f3 f3 f7 f7 f7"
+                         "f5 f5 f5 f3 f3 f3 f7 f7 f7";
+
+    .item1{
+        grid-area: f1;
+    }
+    .item2{
+        grid-area: f2;
+    }
+    .item3{
+        grid-area: f3;
+    }
+    .item4{
+        grid-area: f4;
+    }
+    .item5{
+        grid-area: f5;
+    }
+    .item6{
+        grid-area: f6;
+    }
+    .item7{
+        grid-area: f7;
+    }
+    .item8{
+        grid-area: f8;
+    }
+}    
+.gallery div img:hover{
+    opacity: .7;
+}
+
+/*GALERIA PARA TABLETS y celulares*/
+@media only screen and (max-width: 768px){
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: "f6 f4"
+                             "f6 f4"
+                             "f1 f2"
+                             "f8 f3"
+                             "f7 f5"
+                             "f7 f5";
+    }
+}

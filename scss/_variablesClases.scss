@@ -1,0 +1,45 @@
+//VARIABLES DE COLORES
+$colorUno: #090910;
+$colorBlanco: #fafafa;
+$colorBordo: #A9333A;
+$negroPuro: #000000;
+
+//VARIABLES DE FUENTES
+$fuentePrincipal: 'Oswald', sans-serif;
+$fuenteSecundaria: 'Roboto', sans-serif;
+
+//BUCLE PARA WIDTH Y HEIGHT% HEIGHT VH
+@for $i from 1 through 10 {
+	.width-#{$i} { width: 10% * $i; }
+}
+@for $i from 1 to 11 {
+	.height-#{$i} { height: 10% * $i; }
+}
+@for $i from 1 through 10 {
+	.heightVh-#{$i} { height: 10vh * $i; }
+}
+
+//EACH PARA TAMAÑO DE TITULOS
+@each $titulo, $tamaño in (h1: 3.5rem, h2: 3rem, h3: 2.5rem) {
+    #{$titulo} {
+      font-size: $tamaño;
+    }
+}
+ @each $titulo, $center in (h1: center, h2: center, h3: center) {
+    #{$titulo} {
+      text-align: $center;
+    } 
+}
+
+/*PISANDO BOOTSTRAP*/
+.bg-negro{
+    background: $negroPuro;
+}
+.fuenteNav{
+    font-family: $fuentePrincipal;
+    color: $colorBlanco;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+}

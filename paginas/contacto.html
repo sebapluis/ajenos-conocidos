@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AGREGANDO LOS META DE SEO-->
+    <meta name="description" content="AJENOS CONOCIDOS, póngase en contacto con nosotros.">
+    <meta name="keywords" content="musica, shows, canciones populares, acustico, integrantes, banda, arte, cultura, contacto, contrataciones, comentarios">
+    <title>Ajenos Conocidos - Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+    <!-- HEADER CON NAVBAR ADENTRO-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-negro">
+            <div class="container-fluid bg-negro">
+                <a class="navbar-brand" href="/">
+                    <img src="/" alt="Logo de la banda">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fuenteNav" aria-current="page" href="/paginas/integrantes.html">integrantes</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-uppercase fuenteNav" href="/paginas/shows.html">shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fuenteNav" href="/paginas/galeria.html">galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fuenteNav" href="/paginas/contacto.html">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!--CONTENEDOR GENERAL DE LA PAGINA-->
+        <div class="container heightVh-10">
+            
+            <!--TITULO-->
+            <section>
+                <h1 class="text-center pt-5 mb-5">contáctenos</h1>
+            </section>    
+
+            <!--FORMULARIO-->
+            <section>
+                <div class="row">
+                    <div class="col-12">
+                        <form action="#">
+                            <div class="mb-4">
+                                <label for="fullName" class="form-label">Nombre completo</label>
+                                <input type="text" name="fullName" id="fullName" class="form-control" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="comentario" class="form-label">Envíenos su comentario</label>
+                                <textarea name="comentario" id="comentario" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="d-grid contenedorBoton">
+                                <button type="submit" class="boton">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>    
+        </div>
+    </main>
+    
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="contenedorIconos">
+            <a href="https://www.instagram.com/ajenosconocidos/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-spotify"></i></a>
+        </div>
+        <div class="footerTexto">
+            <p>
+                Sitio creado por Sebastian Pluis
+            </p>
+        </div>
+    </footer>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>

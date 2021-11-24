@@ -1,0 +1,18 @@
+.contenedorBoton{
+    margin: 2rem;
+    .boton{
+        background:$negroPuro;
+        color: $colorBlanco;
+        font-weight: bold;
+        padding: 1rem;
+        border-radius: 5rem;
+        min-width: 50%;
+        text-decoration: none;
+    }
+    .boton:hover{
+        background: $colorBlanco;
+        color: $negroPuro;
+        border: 1px solid $negroPuro;
+    }
+}
+

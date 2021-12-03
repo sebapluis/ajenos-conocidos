@@ -324,6 +324,7 @@ p {
 .contenedorIconos i {
   padding: 1rem;
   font-size: 3rem;
+  color: #fafafa;
 }
 
 .contenedorIconos a:visited {

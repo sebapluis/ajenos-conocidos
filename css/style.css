@@ -327,6 +327,10 @@ p {
   color: #fafafa;
 }
 
+.contenedorIconos a {
+  color: #fafafa;
+}
+
 .contenedorIconos a:visited {
   color: #fafafa;
 }
